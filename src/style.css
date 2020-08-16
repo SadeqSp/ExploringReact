@@ -1,10 +1,12 @@
 body {
-    background-color: rgb(170, 164, 164);
-    margin: 50px;
-  }
-  
-  main {width: 300px;}
-  
-  code {
-    color: white;
-  }
+	background-color: rgb(170, 164, 164);
+	margin: 50px;
+}
+
+main {width: 300px;}
+h4, h5 {margin: 0;}
+code {
+  	color: white;
+	display: block;
+}
+.box {margin-left: 30px;}
