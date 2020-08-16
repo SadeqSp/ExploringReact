@@ -2,13 +2,21 @@ import React from 'react';
 
 // Function Component             
 function Func1 () {
-    return <code>function component</code>;
+    return <code>regular</code>;
 }
+
+// Arrow Function Component       
+const Func2 = () =>              
+    <code>arrow</code>;
 
 function FuncComp () {
     return (
         <div>
-            <Func1 />
+            <h4> function component:</h4>
+            <div class='box'>
+                <Func1 />
+                <Func2 />
+            </div>
         </div>
     )
 }
