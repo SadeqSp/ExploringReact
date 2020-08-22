@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom'
 import './style.css';
 
 import FuncComp from './myFuncComp';
+import ClassComp from './myClassComp';
 
 const mine = (
     <main>
-        <FuncComp />    
+        <FuncComp /> 
+        <hr />
+        <ClassComp />   
     </main>
 )
 
