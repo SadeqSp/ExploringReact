@@ -33,11 +33,11 @@ function FuncComp () {
         <div>
             <h4>function component:</h4>
             <div class='box'>
-                <h5>stateless</h5>
+                <h5>props</h5>
                 <Func1 name='first' age='44 [string]' />
                 <Func1 name='second' age={a} />
                 <Func2 person={b} />
-                <h5>statefull</h5>
+                <h5>state</h5>
                 <Func3 />
             </div>
         </div>
