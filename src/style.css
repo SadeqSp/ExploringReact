@@ -11,3 +11,21 @@ code {
 	display: block;
 }
 .box {margin-left: 30px;}
+
+
+
+
+h1 {
+	font-family: Lato;
+}
+ul {
+	padding: 0;
+	margin:10px 0 0 0;
+}
+li {
+	list-style-type: none;
+	padding-left: 15px;
+	margin: 10px;
+	background-color:rgba(61, 120, 175, 0.411);
+	border-radius: 5px;
+}
