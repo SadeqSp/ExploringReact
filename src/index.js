@@ -6,7 +6,9 @@ import FuncComp from './myFuncComp';
 import ClassComp from './myClassComp';
 import MyState from './myState';
 import MyList from './list';
+import ContactManager from './contact';
 
+const contacts = ["Aa", "Bb", "Cc"];
 const arr = ["list-A", "list-B"];
 
 const mine = (
@@ -18,6 +20,9 @@ const mine = (
         <hr />
         <h5>list: </h5>
         <MyList data={arr} />
+        <hr />
+        <h5>contact list: </h5>
+        <ContactManager data={contacts} />
     </main>
 )
 
