@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 
-// Stateless Regular Function Component   [props > string/variable]             
+// Stateless Regular Function Component     [props > string/variable]             
 function Func1 (props) {
     return <code>{props.name} - {props.age}</code>;
 }
 
-// Stateless Arrow Function Component     [props > object]       
+// Stateless Arrow Function Component       [props > object]       
 const Func2 = (props) =>            
     <code>{props.person.name} - {props.person.age}</code>;
 

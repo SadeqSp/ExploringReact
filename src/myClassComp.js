@@ -1,15 +1,19 @@
 import React from 'react';
 
+// class component      [props > string/variable]
 class NewC1 extends React.Component {
     render() {
         return <code>{this.props.name} - {this.props.age}</code>;
     }
 }
+
+// class component      [props > object]
 class NewC2 extends React.Component {
     render() {
         return <code>{this.props.person.name} - {this.props.person.age}</code>;
     }
 }
+
 class ClassComp extends React.Component {
     render() {
 
