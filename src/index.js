@@ -5,6 +5,7 @@ import './style.css';
 import FuncComp from './myFuncComp';
 import ClassComp from './myClassComp';
 import MyState from './myState';
+import ConsComp from './myConstComp';
 import MyList from './list';
 import ContactManager from './contact';
 
@@ -17,6 +18,7 @@ const mine = (
         <hr />
         <ClassComp />
         <MyState />
+        <ConsComp />
         <hr />
         <h5>list: </h5>
         <MyList data={arr} />
